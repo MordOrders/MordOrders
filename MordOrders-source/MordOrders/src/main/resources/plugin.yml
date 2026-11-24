@@ -1,0 +1,16 @@
+name: MordOrders
+version: 1.0.0
+main: me.mord.orders.MordOrders
+api-version: '1.21'
+softdepend: [Vault]
+commands:
+  orders:
+    description: Open the MORD SMP server orders menu
+    usage: /orders
+  shards:
+    description: View and manage Shards
+    usage: /shards [give|take|set] [player] [amount]
+permissions:
+  mordorders.admin:
+    description: Manage player Shards
+    default: op

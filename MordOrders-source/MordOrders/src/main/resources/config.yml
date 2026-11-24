@@ -1,0 +1,18 @@
+orders:
+  diamond:
+    material: DIAMOND
+    amount: 16
+    reward: 2500.0
+    display-name: '&bDiamond Delivery'
+  emerald:
+    material: EMERALD
+    amount: 32
+    reward: 1800.0
+    display-name: '&aEmerald Delivery'
+  iron:
+    material: IRON_INGOT
+    amount: 64
+    reward: 900.0
+    display-name: '&fIron Delivery'
+shards:
+  currency-name: 'Shards'
